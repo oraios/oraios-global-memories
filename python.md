@@ -31,5 +31,6 @@ Snapshot tests use syrupy.
   block in a concise manner.
 * When describing parameters, methods/functions and classes, you use a precise style, where the initial (elliptical) phrase
   clearly defines *what* it is. Any details then follow in subsequent sentences.
+* A function/class docstring starts with an upper-case letter; parameter/return docstrings start with a lower-case letter.
 * Each piece of information appears exactly once, at the element that owns it: callers do not
   explain callees' internals, and callees do not describe their callers.
