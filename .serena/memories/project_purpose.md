@@ -1,0 +1,1 @@
+This project contains the global Oraios memories (e.g. global/oraios/*) that are made available for use in Serena projects. It is not a code project; no onboarding needed.
