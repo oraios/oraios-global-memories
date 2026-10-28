@@ -1,13 +1,13 @@
 # Software Design
 
-IMPORTANT: You use an idiomatic, object-oriented style (Java-esque principles, Pythonic syntax and constructs).
+IMPORTANT: You use an idiomatic, object-oriented style (Java-esque principles).
 
 * You keep each concern in exactly one home.
   A mechanism whose parts are only correct in combination is implemented as a single component/class, and its parts are private to it;
   expose a minimal public surface. Java-like encapsulation: If helper functions and constants are only used by one abstraction,
   make them internal to the respective class.
 * You enforce invariants through structure and visibility; interfaces should not permit states the design forbids.
-* For any non-trivial interfaces, you use interfaces that expect explicitly typed abstractions
+* For any non-trivial interfaces, you use methods/functions that expect explicitly typed abstractions
   rather than mere functions (i.e. use the strategy pattern, for example).
   You avoid the use of low-level data structures in all cases where an object-oriented abstraction would be more appropriate.
   For simple data storage, you use dataclasses instead of dictionaries or tuples.
